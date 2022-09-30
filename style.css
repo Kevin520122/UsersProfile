@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 5px;
+    width: 55%;
+    float: left
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #reload{
+    /* float: right; */
+    display:block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid ;
+    background-color:aquamarine;
+    margin: 3px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    z-index: auto;
+  }
+  
+  #reload:hover{
+    background-color: blueviolet;
+  }
+  
+  .dob, .birth{
+    margin-bottom: 10px
+  }
+  button:hover{
+    background-color: #004369;
+  }
+  
+  img{
+    margin: 10px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .card{
+      width: 100%
+    }
+  
+  }
+  
+  
+  
