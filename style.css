@@ -9,7 +9,7 @@
     border: 3px solid blue;
     border-radius: 10px;
     margin: 5px;
-    width: 55%;
+    width: 100%;
     float: left
   }
   
@@ -48,9 +48,14 @@
   }
   
   
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 600px) {
     .card{
       width: 100%
+    }
+    ul{
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
     }
   
   }
